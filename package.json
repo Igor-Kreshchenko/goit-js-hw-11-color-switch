@@ -1,0 +1,24 @@
+{
+  "name": "goit-js-hw-11-color-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-Kreshchenko/goit-js-hw-11-color-switch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-Kreshchenko/goit-js-hw-11-color-switch/issues"
+  },
+  "homepage": "https://github.com/Igor-Kreshchenko/goit-js-hw-11-color-switch#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
