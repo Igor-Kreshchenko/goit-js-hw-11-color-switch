@@ -14,9 +14,17 @@ button {
   color: white;
 }
 
+button:disabled {
+  background-color: grey;
+}
+
 button:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:disabled:hover {
+  box-shadow: none;
 }
 
 .start-btn {

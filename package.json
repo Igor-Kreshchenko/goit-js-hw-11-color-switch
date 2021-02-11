@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-color-switch/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Igor-Kreshchenko/goit-js-hw-11-color-switch#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
